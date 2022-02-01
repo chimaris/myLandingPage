@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* body{
+    max-width: 100%;
+} */
+
+.header {
+    background-color: #faede5;
+    max-height: 550px;
+    max-width: 100%;
+}
+
+.nav{
+    /* margin: 0px 100px 20px 200px; */
+    width: 80%;
+    margin: auto;
+    height: 80px;
+
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #123889;
+    margin-top: 10px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    position: absolute;
+    right: 140px;
+    list-style: none;
+    color: #123889;
+}
+
+.nav-list {
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #123889;
+}
+
+button a {
+    color: white;
+}
+
+.header-info {
+    width: 80%;
+    margin: 10px auto 0;
+    position: relative;
+    /* height: 400px; */
+}
+
+.header-text {
+    width: 40%;
+    height: 400px;
+    /* position: absolute;
+    top: 50px; */
+    font-size: 1.125em;
+    color: #123889;
+
+    /* line-height: 2; */
+}
+
+.header-text h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #123889;
+}
+
+.header-text p {
+    margin: 10px 0;
+}
+
+/* .header-img {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}  */
+
+.header-btn {
+    padding: 10px;
+    border-color: #ffdfd8;
+    background-color: #123889;
+    border-radius: 10px;
+    width: 70%;
+    color: white;
+}
+.header-info img {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.aboutUs-img {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+
+.aboutUs {
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+}
+
+.aboutUs-info {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    /* height: 400px; */
+}
+
+.aboutUs-text {
+    width: 50%;
+    height: 280px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    font-size: 1.2em;
+    color: #123879;
+}
+
+.aboutUs-text h2 {
+    font-size: 1.9em;
+    font-weight: bolder;
+    color: #976171;
+}
+
+.aboutUs-text h2 span {
+    color: #123889
+}
+
+.aboutUs-text p {
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* .aboutUs-img {
+    position: absolute;
+    top: 50px;
+    color: #123889;
+} */
+
+.info {
+    width: 100%;
+    margin: 5px auto;
+    background: linear-gradient(#123889,#faede5);
+    color: #fff;
+    height: 750px;
+}
+
+.info h1 {
+    font-size: 2.3em;
+    font-weight: bolder;
+    padding: 80px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.containers {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.services {
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    background-color: #123889;
+    border-radius: 10px;
+    margin: auto;
+    transition: width 2s;
+}
+
+.services:hover {
+    width: 100%;
+  }
+
+.inside-container {
+    border: solid 4px #fff;
+    border-radius: 3px;
+    width: 10%;
+    height: 70px;
+    margin: 50px 30px;
+    float: left;
+}
+
+.containers h3 {
+    padding-top: 50px;
+    color: #ffdfd8;
+
+}
+
+.containers p {
+    padding: 10px;
+
+}
+
+.contactUs {
+    width: 100%;
+    height: 300px;
+}
+
+.contactUs-container {
+    position: relative;
+    background-color: #123889;
+    color: white;
+    width: 80%;
+    height: 270px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.contactUs-text {
+    position: absolute;
+    top: 40px;
+    left: 95px;
+    width: 40%;
+    /* height: 200px; */
+}
+
+form {
+    width: 40%;
+    position: absolute;
+    right: 95px;
+    top: 40px;
+}
+
+.contactUs-btn {
+    padding: 5px;
+    color: #ffdfd8;
+    background-color: inherit;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    width: 150px;
+}
+/* .contactUs-btn {
+    padding: 5px;
+    color: 123889;
+    background-color: #ffdfd8;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    width: 150px;
+} */
+
+.contactUs-text p {
+    padding-top: 20px;
+}
+
+
+
+form > input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #ffdfd8;
+    padding: 5px;
+}
+
+form > input {
+    height: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #123889;
+    text-align: center;
+    color: white;
+}
+
+.footer p {
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+    .header {
+        text-align: center;
+    }
+    .nav-item {
+        width: 300px;
+        position: relative;
+        margin: auto;
+        left:0px;
+        top: 20px;
+    }
+    
+    .header-text {
+        width: 100%;
+        height: auto;
+        }
+
+    .header-info img {
+        display: none;
+    }
+
+    .containers {
+        grid: none;
+       height: auto;
+       margin-bottom: 50px;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .info {
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .info h1 {
+        font-size: 1.3em;
+        padding: 40px;
+    }
+
+    .aboutUs-info {
+        text-align: center;
+        height: auto;
+    }
+    .aboutUs-text {
+        width: 100%;
+        position: relative;
+        margin: auto;
+        height: auto;
+        top: 20px;
+    }
+    .aboutUs-img {
+        width: 100%;
+        position: relative;
+    }
+    .contactUs-container {
+        height: 380px;
+    }
+
+    .contactUs-text {
+        position: relative;
+        left:-40px;
+        top: 15px;
+        width: 80%;
+        font-size: 0.7em;
+    }
+
+    form {
+        width: 80%;
+        position: relative;
+        margin: auto;
+        left: 0;
+    }
+
+    .contactUs{
+        margin-bottom: 85px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 1000px and down) */
+@media only screen and (max-width: 1020px) {
+
+    .header-text h1 {
+        font-size: 1.5em;
+    }
+    .aboutUs-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .aboutUs-text p {
+        line-height: 1rem;
+    }
+
+    .contactUs-text {
+        left: 50px;
+
+    }
+
+    form {
+
+        right: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
